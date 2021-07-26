@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://a0.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico" type="image/x-icon">
+    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web (1)/fontawesome-free-5.15.3-web/css/all.min.css">
+    
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>airbnb</title>
+  </head>
+  <body>
+   
+        
+    <header>
+     <div class="navigation">
+      <nav class="fixed-nav-bar">
+        <a class="brand">
+          <svg width="102" height="32" fill="currentcolor" style="display: block; "><path d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5zM41.54 24.12a5.02 5.02 0 01-3.95-1.83 6.55 6.55 0 01-1.6-4.48 6.96 6.96 0 011.66-4.58 5.3 5.3 0 014.08-1.86 4.3 4.3 0 013.7 1.92l.1-1.57h2.92V23.8h-2.93l-.1-1.76a4.52 4.52 0 01-3.88 2.08zm.76-2.88c.58 0 1.09-.16 1.57-.45.44-.32.8-.74 1.08-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.55.45zM53.45 8.46c0 .35-.06.67-.22.93-.16.25-.38.48-.67.64-.29.16-.6.22-.92.22-.32 0-.64-.06-.93-.22a1.84 1.84 0 01-.67-.64 1.82 1.82 0 01-.22-.93c0-.36.07-.68.22-.93.16-.3.39-.48.67-.64.29-.16.6-.23.93-.23a1.84 1.84 0 011.6.86 2 2 0 01.21.94zm-3.4 15.3V11.7h3.18v12.08h-3.19zm11.68-8.9v.04c-.15-.07-.35-.1-.5-.13-.2-.04-.36-.04-.55-.04-.89 0-1.56.26-2 .8-.48.55-.7 1.32-.7 2.31v5.93h-3.19V11.69h2.93l.1 1.83c.32-.64.7-1.12 1.24-1.48a3.1 3.1 0 011.81-.5c.23 0 .45.02.64.06.1.03.16.03.22.06v3.2zm1.28 8.9V6.74h3.18v6.5c.45-.58.96-1.03 1.6-1.38a5.02 5.02 0 016.08 1.31 6.55 6.55 0 011.6 4.49 6.96 6.96 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.1 1.57-2.92.03zm6.15-2.52c.57 0 1.08-.16 1.56-.45.44-.32.8-.74 1.08-1.25.26-.51.38-1.12.38-1.8 0-.67-.12-1.28-.38-1.79a3.75 3.75 0 00-1.08-1.25 2.95 2.95 0 00-3.12 0c-.45.32-.8.74-1.09 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.56.45zm7.51 2.53V11.69h2.93l.1 1.57a3.96 3.96 0 013.54-1.89 4.1 4.1 0 013.82 2.44c.35.76.54 1.7.54 2.75v7.24h-3.19v-6.82c0-.84-.19-1.5-.57-1.99-.38-.48-.9-.74-1.56-.74-.48 0-.9.1-1.27.32-.35.23-.64.52-.86.93a2.7 2.7 0 00-.32 1.35v6.92h-3.16zm12.52 0V6.73h3.19v6.5a4.67 4.67 0 013.73-1.89 5.02 5.02 0 013.95 1.83 6.57 6.57 0 011.59 4.48 6.95 6.95 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.09 1.57-2.93.03zm6.18-2.53c.58 0 1.09-.16 1.56-.45.45-.32.8-.74 1.09-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a3.63 3.63 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.95.45 1.55.45z"></path></svg>
+          <img src="" />
+        </a>
+        <a class="link" href="#">Experience</a>
+        <a class="link" href="#">Places to stay</a>
+        <a class="link" href="#">Online Experience </a>
+        <a class="link" href="#">Become a Host</a>
+      </nav>
+     </div>
+      
+      
+    
+    <div class="container search-container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div>
+            <form action="#" class="search-2">
+              <input type="text" class="search__input" placeholder="Search hotels">
+              <button class="search__button">
+                <svg class="search__icon">
+                  <use xlink:href = "sprite.svg#icon-magnifying-glass"></use>
+              </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container olympian">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <div class="boy-heading olympian-text-box">
+              <h2 class=" boy-text olympian-text">Olympian & Paralympian Online Experience
+                <button type="button" class="btn btn-light mt-5 boy-btn">Explore Now</button>
+              </h2> 
+            </div>
+          </div>
+         
+
+        </div>
+      </div>
+    </div>
+    </header>
+
+    <div class="mobile-bottom-navigation">
+      <div class="container mobile-bottom-1">
+        <div class="row">
+          <div class="col-sm-12 mobile-bottom">
+
+            <div class="search pt-2 pb-5">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 24px; width: 24px;  stroke: currentcolor; stroke-width: 4; overflow: visible;"><g fill="none"><path d="m13 24c6.0751322 0 11-4.9248678 11-11 0-6.07513225-4.9248678-11-11-11-6.07513225 0-11 4.92486775-11 11 0 6.0751322 4.92486775 11 11 11zm8-3 9 9"></path></g></svg>
+              <h3>Explore</h3>
+            </div>
+
+            <div class="search pt-1 pb-5">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 24px; width: 24px; color: rgba(175, 175, 175); fill: currentcolor;"><path d="m23.0204313 3.00582063c-2.0815427.07751293-4.0715877.92728952-5.5789504 2.43470494l-1.4414809 1.44047443-1.4404171-1.44031065c-1.5845115-1.58335003-3.6983863-2.44068935-5.8929929-2.44068935-2.19416638 0-4.30898823.85772467-5.89177678 2.44051322-1.58391215 1.58390109-2.44156322 3.69775756-2.44156322 5.89278678 0 4.9282095 2.48419629 8.8512108 8.03256412 13.439053l.70954716.5770638.74171734.584714.77413928.5930892c.131739.0995864.2648394.199552.3993065.2999118l.823244.607011.8562953.6171982.8895983.6281103.9231529.6397472 1.5170817 1.0308345 1.3291121-.9009656 1.0589072-.7287753.6612652-.4625621.7010987-.498181.8533598-.6198244c7.3971739-5.4452801 11.0629604-10.1222564 11.0629604-15.8064246 0-2.19559863-.8569151-4.30921968-2.4404957-5.89278925-1.5843319-1.58317036-3.6982062-2.44051075-5.8928043-2.44051075zm.3128687 1.99417937c1.6695137 0 3.2735403.65055751 4.4788526 1.85498605 1.2043504 1.20434208 1.8544474 2.80783678 1.8544474 4.47831395 0 4.2987547-2.6123854 8.1213061-8.009061 12.474023l-.7197183.570835c-.2451788.1913357-.495635.3837563-.7513829.5773445l-.7831323.5843503-.8149664.5918523-.6943428.4933793-.6495182.4543204-1.2444781.8545952-.3599806-.2464089c-.3060116-.2102151-.6062613-.4182535-.900798-.6242279l-.8665202-.6118437c-.1415799-.1009795-.2817437-.2014711-.4204976-.3014889l-.8156535-.594534c-.1331387-.0981789-.2648797-.1959122-.3952291-.2932139l-.7654464-.5787439-.7323414-.5690616c-5.8464087-4.609638-8.4102832-8.3182024-8.4102832-12.7811772 0-1.66972745.65069601-3.27350087 1.85577431-4.47857075 1.20389067-1.20389067 2.80861035-1.85472925 4.47756569-1.85472925 1.6695226 0 3.2735495.6505567 4.4788626 1.85498605l2.8542663 2.8556887 2.8559829-2.85594303c1.2038387-1.20388075 2.8086117-1.85473172 4.4775982-1.85473172z"></path></svg>
+              <h3>Whishlists</h3>
+            </div>
+
+            <div class="search pt-1 pb-5">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 24px; width: 24px; color: rgba(175, 175, 175); fill: currentcolor;"><path d="m16 1c8.2842712 0 15 6.71572875 15 15 0 8.2842712-6.7157288 15-15 15-8.28427125 0-15-6.7157288-15-15 0-8.28427125 6.71572875-15 15-15zm0 8c-2.7614237 0-5 2.2385763-5 5 0 2.0143973 1.2022141 3.7998876 2.9996346 4.5835001l.0003231 2.0984999-.1499943.0278452c-2.8326474.5613112-5.31897338 2.2230336-6.93575953 4.5872979 2.34343054 2.291067 5.54974273 3.7028569 9.08579613 3.7028569 3.5355506 0 6.7414538-1.4113884 9.0850203-3.701476-1.6141801-2.3628535-4.0978119-4.0247647-6.929184-4.5867938l-.1558786-.0287302.001228-2.0991413c1.7288399-.7547474 2.9066959-2.4357565 2.9936498-4.355479l.0051645-.2283797c0-2.7614237-2.2385763-5-5-5zm0-6c-7.17970175 0-13 5.82029825-13 13 0 2.9045768.95257276 5.5866683 2.56235849 7.7509147 1.42074739-1.9134907 3.33951478-3.4002416 5.53860831-4.2955956l.3480332-.1363191-.0229565-.0189706c-1.43704227-1.2411241-2.34462949-3.045583-2.42083359-5.0285539l-.00520991-.2714755c0-3.8659932 3.1340068-7 7-7s7 3.1340068 7 7c0 1.9941317-.8415062 3.8279876-2.224566 5.1193683l-.225434.2006317.0447787.0163138c2.3268368.8792152 4.3570558 2.4138611 5.8430586 4.4127726 1.6098837-2.1632453 2.5621627-4.8449575 2.5621627-7.7490864 0-7.17970175-5.8202983-13-13-13z"></path></svg>
+              <h3>Log In</h3>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <h1  class="display-5   explore">Explore nearby</h1>
+      <div class="main-container">
+        <div class="small-container">
+          <img class="image" src="https://a0.muscache.com/im/pictures/087a8dff-a609-4084-86db-f45051c6f23a.jpg?im_q=medq&im_w=240" alt="" srcset="">
+          <div class="small-text">
+            <h3 class="display-5" >Hyderabad</h3>
+            <h6 class="display-6">6.5-hour drive</h6>
+
+          </div>
+        </div>
+
+        <div class="small-container">
+          <img class="image" src="https://a0.muscache.com/im/pictures/8340bd19-ee32-4669-8b10-a8ac7e7735d4.jpg?im_q=medq&im_w=240" alt="" srcset="">
+          <div class="small-text">
+            <h3 class="display-5" >Bhopal</h3>
+            <h6 class="display-6">4.5-hour drive</h6>
+
+          </div>
+        </div>
+
+        <div class="small-container">
+          <img class="image" src="https://a0.muscache.com/im/pictures/a0eb36e7-b468-4c5e-93b2-819e793563b2.jpg?im_q=medq&im_w=240" alt="" srcset="">
+          <div class="small-text">
+            <h3 class="display-5" >Indore</h3>
+            <h6 class="display-6">1.5-hour drive</h6>
+          </div>
+        </div>
+
+        <div class="small-container">
+          <img class="image image-5" src="https://a0.muscache.com/im/pictures/7c424b7e-0f02-4282-93cf-c5fc5e5e157d.jpg?im_q=medq&im_w=240" alt="" srcset="">
+          <div class="small-text">
+            <h3 class="display-5" >Nagpur</h3>
+            <h6 class="display-6">2.5-hour drive</h6>
+
+          </div>
+        </div>
+
+        <div class="small-container">
+          <img class="image image-7" src="https://a0.muscache.com/im/pictures/be4d3ba5-08d7-4afe-95a7-f2da6453886a.jpg?im_q=medq&im_w=240" alt="" srcset="">
+          <div class="small-text">
+            <h3 class="display-5" >Raipur</h3>
+            <h6 class="display-6">4-hour drive</h6>
+
+          </div>
+        </div>
+
+        <div class="small-container">
+          <img class="image image-6" src="https://a0.muscache.com/im/pictures/76e5f1c6-a788-418c-a28b-f0ee29cffd41.jpg?im_q=medq&im_w=240" alt="" srcset="">
+          <div class="small-text">
+            <h3 class="display-5" >Jabalpur</h3>
+            <h6 class="display-6">5-hour drive</h6>
+
+          </div>
+        </div>
+
+        <div class="small-container tab-none">
+          <img class="image" src="https://a0.muscache.com/im/pictures/76e5f1c6-a788-418c-a28b-f0ee29cffd41.jpg?im_q=medq&im_w=240" alt="" srcset="">
+          <div class="small-text">
+            <h3 class="display-5" >Ujjan</h3>
+            <h6 class="display-6">6.5-hour drive</h6>
+
+          </div>
+        </div>
+
+        <div class="small-container tab-none">
+          <img class="image" src="https://a0.muscache.com/im/pictures/8340bd19-ee32-4669-8b10-a8ac7e7735d4.jpg?im_q=medq&im_w=240" alt="" srcset="">
+          <div class="small-text">
+            <h3 class="display-5" >Aurangabad</h3>
+            <h6 class="display-6">9-hour drive</h6>
+          </div>
+        </div>
+
+
+        
+          
+      </div>
+      
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="boy-image">
+            <div class="boy-heading">
+              <h2 class=" boy-text">Not Sure Where to go ? Perfect
+                <button type="button" class="btn btn-dark mt-5 boy-btn">I'm Flexible</button>
+              </h2>
+              
+            </div>
+          </div>
+         
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="display-5 explore live">Live Anywhere</h1>
+      <div class="main-liveanywhere-container">
+        <div class="small-liveanywhere-container">
+          <img class="img-fluid live-border-radius" src="https://a0.muscache.com/im/pictures/2f13349d-879d-43c6-83e3-8e5679291d53.jpg?im_w=720" alt="" srcset="">
+          <h2 class="live-text mb-5">outdoor gateway</h2>
+        </div>
+
+        <div class="small-liveanywhere-container">
+          <img class="img-fluid live-border-radius" src="https://a0.muscache.com/im/pictures/36f53e61-db8d-403c-9122-5b761c0e4264.jpg?im_w=720" alt="" srcset="">
+          <h2 class="live-text">unique stays</h2>
+        </div>
+
+        <div class="small-liveanywhere-container">
+          <img class="img-fluid live-border-radius" src="	https://a0.muscache.com/im/pictures/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg?im_w=720" alt="" srcset="">
+          <h2 class="live-text">Entire homes</h2>
+        </div>
+
+        <div class="small-liveanywhere-container ipad-pro-none">
+          <img class="img-fluid live-border-radius" src="https://a0.muscache.com/im/pictures/10a638e1-6aff-4313-8033-1275cec83987.jpg?im_w=720" alt="" srcset="">
+          <h2 class="live-text">Pets allowed</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="display-5 explore live">Discover things to do</h1>
+      <div class="main-liveanywhere-container">
+        <div class="small-liveanywhere-container">
+          <img class="img-fluid live-border-radius" src="https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=720" alt="" srcset="">
+          <h2 class="live-text">Experiences</h2>
+          <p class="paragraph">Find unforgettable activities near you</p>
+        </div>
+
+        <div class="small-liveanywhere-container">
+          <img class="img-fluid live-border-radius" src="https://a0.muscache.com/im/pictures/a6b08861-feb8-4a01-a76d-b33d2867b441.jpg?im_w=720" alt="" srcset="">
+          <h2 class="live-text">Online Experinces</h2>
+          <p class="paragraph">Live, interactive activities led by host</p>
+        </div>
+
+        <div class="small-liveanywhere-container">
+          <img class="img-fluid live-border-radius" src="https://a0.muscache.com/im/pictures/247a1ea3-946d-4eb8-a6ab-e8b9a66846f4.jpg?im_w=720" alt="" srcset="">
+          <h2 class="live-text">Featured Collection wanderiust</h2>
+          <p class="paragraph">Travel from home with online Experiences</p>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="boy-image lady-image">
+            <div class="boy-heading lady-heading">
+              <h2 class=" boy-text lady-text">Try hosting </h2>
+              <p class="earn-text">Earn extra income and unlock new oppurtunities by sharing your space</p>
+              <button type="button" class="btn btn-light lady-btn mt-5 boy-btn">Learn more</button>
+            </div>
+          </div>
+         
+
+        </div>
+      </div>
+    </div>
+   
+   
+       <div class="all-footer">
+        <div class="container pt-5">
+          <h1 class="display-5 about">About</h1>
+         <section>
+          
+          <div class="about-main-container">
+           
+            <div class="about-small-container">
+                <ul>
+                  <li>How Airbnb Works</li>
+                  <li>Newsroom</li>
+                  <li>Airbnb 2021</li>
+                  <li>Airbnb Plus</li>
+                </ul>
+            </div>
+
+            <div class="about-small-container">
+              <ul>
+                <li>Airbnb Luxe</li>
+                <li>Airbnb for Work</li>
+                <li>Made possible by Hosts</li>
+                <li>Careers</li>
+              </ul>
+          </div>
+
+            <div class="about-small-container">
+              <ul>
+                <li>Founder Letter</li>
+                <li>Investor</li>
+                <li>Hotel Tonight</li>
+                
+              </ul>
+          </div>
+
+          
+        </div>
+
+        <h1 class="display-5 about community">Community</h1>
+          <div class="about-main-container">
+            
+              <div class="about-small-container">
+                  <ul>
+                    
+                    <li>Diversity & Belonging</li>
+                    <li>Accessibility</li>
+                    <li>Airbnb Associates</li>
+                  </ul>
+              </div>
+
+              <div class="about-small-container">
+                <ul>
+                  <li>Frontline Stays</li>
+                  <li>Guest Referrals</li>
+                  <li>Airbnb.org</li>
+                </ul>
+            </div>
+          </div>
+
+          <h1 class="display-5 about community">Hosting &nbsp; &nbsp; &nbsp;</h1>
+          <div class="about-main-container">
+            
+              <div class="about-small-container">
+                  <ul>
+                    
+                    <li>Host your home</li>
+                    <li>Host an Online Experience</li>
+                    <li>Host an Experience</li>
+                  </ul>
+              </div>
+
+              <div class="about-small-container">
+                <ul>
+                  <li>Responsible hosting</li>
+                  <li>Resource centre</li>
+                  <li>Community <center></center></li>
+                </ul>
+            </div>
+          </div>
+
+          <h1 class="display-5 about community">Support &nbsp; &nbsp; &nbsp;</h1>
+          <div class="about-main-container">
+            
+              <div class="about-small-container">
+                  <ul>
+                    
+                    <li>our COVID-19 Response</li>
+                    <li>Help center</li>
+                    <li>Cancellattion options</li>
+                  </ul>
+              </div>
+
+              <div class="about-small-container">
+                <ul>
+                  <li>Neighbourhood support</li>
+                  <li>Trust & Safety</li>
+                </ul>
+            </div>
+
+              
+          </div>
+
+          
+        </div>
+      </section>
+      
+      <hr class="mt-2 mb-3"/>
+      <footer>
+        <div class="container">
+          <div class="main-box">
+            <div class="first-box">
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style="display:block;height:16px;width:16px;fill:currentColor" aria-hidden="true" role="presentation" focusable="false"><path d="m8.002.25a7.77 7.77 0 0 1 7.748 7.776 7.75 7.75 0 0 1 -7.521 7.72l-.246.004a7.75 7.75 0 0 1 -7.73-7.513l-.003-.245a7.75 7.75 0 0 1 7.752-7.742zm1.949 8.5h-3.903c.155 2.897 1.176 5.343 1.886 5.493l.068.007c.68-.002 1.72-2.365 1.932-5.23zm4.255 0h-2.752c-.091 1.96-.53 3.783-1.188 5.076a6.257 6.257 0 0 0 3.905-4.829zm-9.661 0h-2.75a6.257 6.257 0 0 0 3.934 5.075c-.615-1.208-1.036-2.875-1.162-4.686l-.022-.39zm1.188-6.576-.115.046a6.257 6.257 0 0 0 -3.823 5.03h2.75c.085-1.83.471-3.54 1.059-4.81zm2.262-.424c-.702.002-1.784 2.512-1.947 5.5h3.904c-.156-2.903-1.178-5.343-1.892-5.494l-.065-.007zm2.28.432.023.05c.643 1.288 1.069 3.084 1.157 5.018h2.748a6.275 6.275 0 0 0 -3.929-5.068z"></path></svg>
+
+              <a class="nav__link" href="">English(IN)</a>
+              <a class="nav__link" href="">&#8377; INR</a>
+              <svg class="margin" viewBox="0 0 32 32" role="img" aria-hidden="false" aria-label="Navigate to Facebook" focusable="false" style="height:18px;width:18px;display:block;fill:currentColor"><path class="facebook mr-5" d="m8 14.41v-4.17c0-.42.35-.81.77-.81h2.52v-2.08c0-4.84 2.48-7.31 7.42-7.35 1.65 0 3.22.21 4.69.64.46.14.63.42.6.88l-.56 4.06c-.04.18-.14.35-.32.53-.21.11-.42.18-.63.14-.88-.25-1.78-.35-2.8-.35-1.4 0-1.61.28-1.61 1.73v1.8h4.52c.42 0 .81.42.81.88l-.35 4.17c0 .42-.35.71-.77.71h-4.21v16c0 .42-.35.81-.77.81h-5.21c-.42 0-.8-.39-.8-.81v-16h-2.52a.78.78 0 0 1 -.78-.78" fill-rule="evenodd"></path></svg>
+             
+              <svg class="margin" viewBox="0 0 32 32" role="img" aria-hidden="false" aria-label="Navigate to Twitter" focusable="false" style="height:18px;width:18px;display:block;fill:currentColor"><path class="facebook" d="m31 6.36c-1.16.49-2.32.82-3.55.95 1.29-.76 2.22-1.87 2.72-3.38a13.05 13.05 0 0 1 -3.91 1.51c-1.23-1.28-2.75-1.94-4.51-1.94-3.41 0-6.17 2.73-6.17 6.12 0 .49.07.95.17 1.38-4.94-.23-9.51-2.6-12.66-6.38-.56.95-.86 1.97-.86 3.09 0 2.07 1.03 3.91 2.75 5.06-1-.03-1.92-.3-2.82-.76v.07c0 2.89 2.12 5.42 4.94 5.98-.63.17-1.16.23-1.62.23-.3 0-.7-.03-1.13-.13a6.07 6.07 0 0 0 5.74 4.24c-2.22 1.74-4.78 2.63-7.66 2.63-.56 0-1.06-.03-1.43-.1 2.85 1.84 6 2.76 9.41 2.76 7.29 0 12.83-4.01 15.51-9.3 1.36-2.66 2.02-5.36 2.02-8.09v-.46c-.03-.17-.03-.3-.03-.33a12.66 12.66 0 0 0 3.09-3.16" fill-rule="evenodd"></path></svg>
+
+              <svg class="margin" viewBox="0 0 24 24" role="img" aria-hidden="false" aria-label="Navigate to Instagram" focusable="false" style="height:18px;width:18px;display:block;fill:currentColor"><path class="facebook" d="m23.09.91c-.61-.61-1.33-.91-2.17-.91h-17.84c-.85 0-1.57.3-2.17.91s-.91 1.33-.91 2.17v17.84c0 .85.3 1.57.91 2.17s1.33.91 2.17.91h17.84c.85 0 1.57-.3 2.17-.91s.91-1.33.91-2.17v-17.84c0-.85-.3-1.57-.91-2.17zm-14.48 7.74c.94-.91 2.08-1.37 3.4-1.37 1.33 0 2.47.46 3.41 1.37s1.41 2.01 1.41 3.3-.47 2.39-1.41 3.3-2.08 1.37-3.41 1.37c-1.32 0-2.46-.46-3.4-1.37s-1.41-2.01-1.41-3.3.47-2.39 1.41-3.3zm12.66 11.63c0 .27-.09.5-.28.68a.92.92 0 0 1 -.67.28h-16.7a.93.93 0 0 1 -.68-.28.92.92 0 0 1 -.27-.68v-10.13h2.2a6.74 6.74 0 0 0 -.31 2.05c0 2 .73 3.71 2.19 5.12s3.21 2.12 5.27 2.12a7.5 7.5 0 0 0 3.75-.97 7.29 7.29 0 0 0 2.72-2.63 6.93 6.93 0 0 0 1-3.63c0-.71-.11-1.39-.31-2.05h2.11v10.12zm0-13.95c0 .3-.11.56-.31.77a1.05 1.05 0 0 1 -.77.31h-2.72c-.3 0-.56-.11-.77-.31a1.05 1.05 0 0 1 -.31-.77v-2.58c0-.29.11-.54.31-.76s.47-.32.77-.32h2.72c.3 0 .56.11.77.32s.31.47.31.76z" fill-rule="evenodd"></path></svg>
+            </div>
+            <h3 class="footer-h3"> 	&#169; 2021 Airbnb,Inc</h3>
+            <div class="sec-box">
+              
+              <a href=""></a>
+              <a class="nav-link" href="">Privacy</a>
+              <a class="nav-link" href="">Terms</a>
+              <a class="nav-link" href="">Sitemap</a>
+              <a class="nav-link" href="">Company</a>
+
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      
+       </div>
+
+      
+   
+    
+
+    <script src="index.js"></script>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5xu.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
